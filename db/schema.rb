@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_25_013810) do
+ActiveRecord::Schema.define(version: 2019_09_25_014234) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,4 +29,14 @@ ActiveRecord::Schema.define(version: 2019_09_25_013810) do
     t.index ["number"], name: "index_judicial_processes_on_number", unique: true
   end
 
+  create_table "movimentations", force: :cascade do |t|
+    t.date "date", null: false
+    t.text "description", null: false
+    t.bigint "judicial_process_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["judicial_process_id"], name: "index_movimentations_on_judicial_process_id"
+  end
+
+  add_foreign_key "movimentations", "judicial_processes"
 end

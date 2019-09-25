@@ -12,4 +12,6 @@ class JudicialProcess < ApplicationRecord
   )
 
   validates :number, uniqueness: true
+
+  has_many :movimentations
 end
