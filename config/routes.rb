@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'homepage#index'
+  root to: 'search_page#index'
 
-  get 'homepage/index'
+  get 'search_page/index'
 end
