@@ -11,7 +11,7 @@
 - Ao fazer a busca de um processo que já existe no banco, e o mesmo está atualizado, NÃO é feita a chamada do crawler; 
 
 ### Demonstração ###
-http://tj-crawler.herokuapp.com
+https://tj-crawler.herokuapp.com/
 
 ### Instalação
 
