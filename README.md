@@ -1,5 +1,7 @@
 # tj-crawler
 
+![alt text](https://i.imgur.com/XpW7Esj.png)
+
 ### Um pouco sobre como foi feito o desafio ###
 
 - Foi criado um endpoint `GET /processes` que irá buscar o processo;
