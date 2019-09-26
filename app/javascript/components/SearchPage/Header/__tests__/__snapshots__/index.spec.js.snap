@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshot renders 1`] = `
+<header>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="input-field col s12 m3"
+      >
+        <select
+          defaultValue="tjal"
+        >
+          <option
+            disabled={true}
+            value="tjal"
+          >
+            TJAL
+          </option>
+        </select>
+        <label>
+          Tribunal
+        </label>
+      </div>
+      <div
+        className="input-field col s12 m5"
+      >
+        <input
+          className="validate"
+          id="process_number"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <label
+          htmlFor="process_number"
+        >
+          Número do Processo
+        </label>
+      </div>
+      <button
+        className="btn btn-large"
+        disabled={true}
+        type="submit"
+      >
+        <i
+          className="material-icons"
+        >
+          search
+        </i>
+      </button>
+    </div>
+  </form>
+</header>
+`;

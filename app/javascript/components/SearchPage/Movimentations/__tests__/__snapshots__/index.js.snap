@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movimentations snapshot renders 1`] = `
+<div
+  className="Movimentations"
+>
+  <div
+    className="col s12 m8"
+  >
+    <ul
+      className="collection with-header"
+    >
+      <li
+        className="collection-header"
+      >
+        <h1
+          className="Movimentations_title"
+        >
+          Movimentações
+        </h1>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details snapshot renders 1`] = `
+<div
+  className="col s12 m4"
+>
+  <h1
+    className="Details_title"
+  >
+    Detalhes do processo
+  </h1>
+  <ul
+    className="Details_list_infos"
+  >
+    <li>
+      <strong>
+        Distribuído em:
+      </strong>
+    </li>
+    <li>
+      <strong>
+        Classe: 
+      </strong>
+    </li>
+    <li>
+      <strong>
+        Área: 
+      </strong>
+    </li>
+    <li>
+      <strong>
+        Assunto: 
+      </strong>
+    </li>
+    <li>
+      <strong>
+        Juíz: 
+      </strong>
+    </li>
+    <li>
+      <strong>
+        Valor da Ação: 
+      </strong>
+    </li>
+  </ul>
+  <div
+    className="divider"
+  />
+  <h1
+    className="Details_title"
+  >
+    Partes envolvida
+  </h1>
+  <ul>
+    <li>
+      <a
+        href="!#"
+      >
+        Nelson Willians & Advogados Associados
+      </a>
+      <br />
+      <span>
+        Parte envolvida * Exequente
+      </span>
+    </li>
+    <li>
+      <a
+        href="!#"
+      >
+        Nelson Willians & Advogados Associados
+      </a>
+      <br />
+      <span>
+        Parte envolvida * Exequente
+      </span>
+    </li>
+    <li>
+      <a
+        href="!#"
+      >
+        Nelson Willians & Advogados Associados
+      </a>
+      <br />
+      <span>
+        Parte envolvida * Exequente
+      </span>
+    </li>
+    <li>
+      <a
+        href="!#"
+      >
+        Nelson Willians & Advogados Associados
+      </a>
+      <br />
+      <span>
+        Parte envolvida * Exequente
+      </span>
+    </li>
+  </ul>
+</div>
+`;

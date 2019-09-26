@@ -1,45 +1,40 @@
-import React from 'react'
+import React from "react";
+import moment from "moment";
+import PropTypes from "prop-types";
+
+import "./styles.scss";
 
 export default function Movimentations(props) {
+  const { movimentations } = props;
+
   return (
-    <div className="col s12 m8">
-      <ul className="collection with-header">
-        <li className="collection-header">
-          <h5>Movimentações</h5>
-        </li>
+    <div className="Movimentations">
+      <div className="col s12 m8">
+        <ul className="collection with-header">
+          <li className="collection-header">
+            <h1 className="Movimentations_title">Movimentações</h1>
+          </li>
 
-        <li className="collection-item">
-          <span>11/06/2018</span><br />
+          {movimentations.map(movimentation => (
+            <li
+              key={`movimentation-${movimentation.id}`}
+              className="collection-item"
+            >
+              <span className="Movimentation_date">
+                {moment(movimentation.date).format("DD/MM/YYYY")}
+              </span>
 
-          <p>
-            Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados.
-          </p>
-        </li>
-        
-        <li className="collection-item">
-          <span>11/06/2018</span><br />
-
-          <p>
-            Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados.
-          </p>
-        </li>
-
-        <li className="collection-item">
-          <span>11/06/2018</span><br />
-
-          <p>
-            Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados.
-          </p>
-        </li>
-
-        <li className="collection-item">
-          <span>11/06/2018</span><br />
-
-          <p>
-            Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados.
-          </p>
-        </li>
-      </ul>
+              <p className="Movimentation_description">
+                {movimentation.description}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  )
+  );
 }
+
+Movimentations.propTypes = {
+  movimentations: PropTypes.array.isRequired
+};

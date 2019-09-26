@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage snapshot renders 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="SearchPage_title"
+  >
+    Consulta de processos de 1º grau.
+  </h1>
+  <blockquote>
+    Informe no campo de busca o nº do processo que deseja buscar no TJAL (Tribunal de Justiça do Estado de Alagoas).
+  </blockquote>
+  <header>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="input-field col s12 m3"
+        >
+          <select
+            defaultValue="tjal"
+          >
+            <option
+              disabled={true}
+              value="tjal"
+            >
+              TJAL
+            </option>
+          </select>
+          <label>
+            Tribunal
+          </label>
+        </div>
+        <div
+          className="input-field col s12 m5"
+        >
+          <input
+            className="validate"
+            id="process_number"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <label
+            htmlFor="process_number"
+          >
+            Número do Processo
+          </label>
+        </div>
+        <button
+          className="btn btn-large"
+          disabled={true}
+          type="submit"
+        >
+          <i
+            className="material-icons"
+          >
+            search
+          </i>
+        </button>
+      </div>
+    </form>
+  </header>
+  <div
+    className="card"
+  >
+    <div
+      className="card-content"
+    >
+      <p
+        className="center"
+      >
+        Nenhum processo encontrado.
+      </p>
+    </div>
+  </div>
+</div>
+`;

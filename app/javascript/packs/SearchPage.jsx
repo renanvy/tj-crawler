@@ -2,13 +2,13 @@
 // like app/views/layouts/application.html.erb. All it does is render <div>Hello React</div> at the bottom
 // of the page.
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import SearchPage from '../components/SearchPage'
+import React from "react";
+import ReactDOM from "react-dom";
+import SearchPage from "../components/SearchPage";
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
     <SearchPage />,
-    document.body.appendChild(document.createElement('search-page-container')),
-  )
-})
+    document.body.appendChild(document.createElement("search-page-container"))
+  );
+});
