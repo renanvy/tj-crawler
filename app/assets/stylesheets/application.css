@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@import 'materialize-css/sass/materialize.scss';
+@import 'materialize-css/sass/materialize';
 
 body {
   background-color: #f5f5f5;
