@@ -2,8 +2,6 @@ import React from "react";
 import moment from "moment";
 import PropTypes from "prop-types";
 
-import "./styles.scss";
-
 export default function Movimentations(props) {
   const { movimentations } = props;
 

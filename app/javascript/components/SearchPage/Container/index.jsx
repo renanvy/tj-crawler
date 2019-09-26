@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import moment from "moment";
 import PropTypes from "prop-types";
 
-import "./styles.scss";
-
 import Preloader from "../../common/Preloader";
 
 export default class Container extends Component {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import { routes } from "../../api";
-import "./styles.scss";
 
 import Header from "./Header";
 import Container from "./Container";
