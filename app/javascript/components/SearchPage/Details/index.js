@@ -42,30 +42,9 @@ export default function Details(props) {
 
       <h1 className="Details_title">Partes envolvida</h1>
 
-      <ul>
-        <li>
-          <a href="!#">Nelson Willians & Advogados Associados</a>
-          <br />
-          <span>Parte envolvida * Exequente</span>
-        </li>
-
-        <li>
-          <a href="!#">Nelson Willians & Advogados Associados</a>
-          <br />
-          <span>Parte envolvida * Exequente</span>
-        </li>
-
-        <li>
-          <a href="!#">Nelson Willians & Advogados Associados</a>
-          <br />
-          <span>Parte envolvida * Exequente</span>
-        </li>
-
-        <li>
-          <a href="!#">Nelson Willians & Advogados Associados</a>
-          <br />
-          <span>Parte envolvida * Exequente</span>
-        </li>
+      <ul className="Details_involved_list">
+        <li>{process.plaintiff}</li>
+        <li>{process.sued}</li>
       </ul>
     </div>
   );

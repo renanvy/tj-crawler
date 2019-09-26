@@ -59,6 +59,22 @@ class ProcessCrawler
     .gsub(" ", "")
   end
 
+  def get_plaintiff
+    table = doc.css('#tablePartesPrincipais')
+
+    return unless table
+
+    table.children[1].content
+  end
+
+  def get_sued
+    table = doc.css('#tablePartesPrincipais')
+
+    return unless table
+
+    table.children[3].content
+  end
+
   def get_movimentations
     div = doc.css('#tabelaTodasMovimentacoes')
 

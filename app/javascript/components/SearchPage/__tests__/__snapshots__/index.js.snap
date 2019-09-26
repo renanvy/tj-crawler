@@ -55,6 +55,11 @@ exports[`SearchPage snapshot renders 1`] = `
         <button
           className="btn btn-large"
           disabled={true}
+          style={
+            Object {
+              "marginTop": 5,
+            }
+          }
           type="submit"
         >
           <i

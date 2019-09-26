@@ -36,6 +36,8 @@ class ProcessFinder
     process.distribution_date = crawler.get_distribution_date
     process.judge = crawler.get_judge
     process.action_value = crawler.get_action_value
+    process.plaintiff = crawler.get_plaintiff
+    process.sued = crawler.get_sued
     process.crawler_updated_at = Time.current
 
     process.movimentations.destroy_all
