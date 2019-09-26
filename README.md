@@ -1,6 +1,6 @@
 # tj-crawler
 
-![alt text](https://i.imgur.com/XpW7Esj.png)
+![alt text](https://i.imgur.com/k6ciXao.png)
 
 ### Um pouco sobre como foi feito o desafio ###
 
