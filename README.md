@@ -23,6 +23,7 @@ Faça o clone do repositório:
 $ cd
 $ git clone git@github.com:renanvy/tj-crawler.git
 $ cd tj-crawler
+cp config/database.sample.yml config/database.yml
 ```
 
 ##### Instalando as dependências:

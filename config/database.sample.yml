@@ -13,9 +13,3 @@ development:
 test:
   <<: *default
   database: tjal_crawler_test
-
-production:
-  <<: *default
-  database: tjal_crawler_production
-  username: tjal_crawler
-  password: <%= ENV['TJAL_CRAWLER_DATABASE_PASSWORD'] %>
